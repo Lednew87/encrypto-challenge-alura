@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+* 
+body {
+    width: 100%;  
+    min-height: 80%;
+    background-image: url(../img/pergaminho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    font-family: 'Special Elite', cursive;
+}
+
+*h1 {
+	margin: 0px;
+    position:relative;
+    font-family: 'Special Elite', cursive;    
+}
+
+h2 {
+    margin: 30px;
+    position:relative;
+    font-family: 'Special Elite', cursive;
+}
+
+#input-textarea textarea::placeholder{
+    font-size: 2rem;
+    color: #0c010189;
+}
+
+#textarea  {
+    position:absolute;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    margin: 200px;
+    margin-right: auto;
+    margin-top: -10px;
+    width: 50%;  
+    background: transparent;
+    font-family: 'Special Elite', cursive;
+    align-self: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 130%;
+    box-shadow: 0px 0px 50px 1px #861016;
+ 
+}
+
+#text-result {
+    position:absolute;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    margin: 0px;
+    margin-left: 200px;
+    margin-top: 400px;
+    width: 50%;  
+    color: black;
+    background-color: transparent;
+    font-family: 'Special Elite', cursive;    
+    align-self: center;
+    font-weight: bolder;
+    font-size: 120%;
+    box-shadow: 0px 0px 50px 1px #861016;
+    width: 50%;
+    height: 30%;
+   
+}
+
+
+.btn-general:hover{
+    box-shadow: 0px 0px 50px 1px #861016;
+}
+ 
+#btn-encrypt {
+    background-color: #861016;
+    position:absolute;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 2px solid #861016;
+    margin-top: 340px; 
+    width: 7%;  
+    margin-left: 250px;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    transition: .2s;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#btn-decrypt {
+    background-color: #861016;
+    position:absolute;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 2px solid #861016;
+    margin-top: 340px; 
+    width: 8%; 
+    margin-left: 980px;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    transition: .2s;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+#btn-copy {
+    background-color: #861016;
+    position:absolute;
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 2px solid #861016;
+    margin-top: 340px;  
+    width: 8%; 
+    margin-left: 600px;
+    color: white;
+    font-family: 'Special Elite', cursive;
+    transition: .2s;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
